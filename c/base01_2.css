@@ -1,0 +1,41 @@
+@charset "utf-8";
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, em, img, strong, dl, dt, dd, ol, ul, li, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, section, summary, time { margin: 0; padding: 0; }
+body { font-size: 14px; color: #000; background: #dedede; }
+.clearfix:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+.clearfix { zoom: 1; }
+ul { list-style: none; }
+header { height: 60px; background: #333; margin-bottom: 20px; }
+header .inner { width: 1200px; height: 60px; margin: 0 auto; }
+header .inner h1 { float: left; height: 60px; line-height: 60px; color: #fff; }
+header .inner nav { float: right; height: 60px; }
+header .inner nav li { float: left; padding: 0 10px; position: relative; }
+header .inner nav li a { height: 60px; line-height: 60px; text-decoration: none; color: #fff; }
+header .inner nav li:before { content: ""; display: inline-block; width: 6px; height: 6px; background: #000; border-radius: 3px; position: absolute; top: 27px; left: 0px; z-index: 9; }
+header .inner nav li.active a { color: #a0a0a0; }
+article, aside { width: 1198px; margin: 0 auto 20px; padding: 20px; border: 1px solid #cdcdcd; box-shadow: 2px 2px 2px #848484; background: #fff; }
+article h1, article h2, aside h1, aside h2 { line-height: 1.8; }
+article h2 { font-size: 16px; color: #5f5e5a; }
+article p { line-height: 24px; text-indent: 2em; }
+article p.summary { font-size: 12px; color: #6b6c67; text-indent: 0; }
+article li { font-size: 14px; line-height: 24px; padding-left: 20px; }
+article figure { width: 100px; padding: 10px; border: 1px solid #cecece; margin-left: 40px; margin-bottom: 15px; }
+article figure figcaption { font-size: 12px; line-height: 12px; text-align: center; margin-bottom: 10px; }
+article figure img { display: block; width: 100px; height: 80px; }
+article:last-child li { padding-left: 0; margin-left: 40px; }
+article .tb-title { text-indent: 0; }
+article table { width: 100%; border: 1px solid #ccc; }
+article table th, article table td { padding-left: 5px; font-size: 12px; line-height: 24px; border: 1px solid #ccc; }
+article table th { color: #fff; background: #333; text-align: left; }
+article table tr:last-child td { font-weight: bold; background: #ccc; }
+aside h1 { border-left: 3px solid #ccc; padding-left: 10px; line-height: 38px; }
+aside h2 { font-size: 18px; text-align: center; }
+aside form { width: 1180px; margin: 0 auto; }
+aside dl { width: 100%; }
+aside dt, aside dd { float: left; margin-bottom: 10px; font-size: 12px; line-height: 20px; }
+aside dt { width: 30%; text-align: right; padding-right: 15px; }
+aside dd { width: 60%; }
+aside dd p { margin-top: 0; color: #a2958c; }
+aside input[type="text"]: { width: 127px; height: 20px; line-height: 20px; }
+aside textarea { width: 760px; padding: 5px; }
+aside button { display: block; width: 1178px; height: 38px; border: 1px solid #c4cccf; border-radius: 5px; font-size: 16px; color: #fff; background: #3355d0; text-align: center; cursor: pointer; }
+footer { height: 70px; line-height: 70px; background: #000; text-align: center; color: #fff; }
